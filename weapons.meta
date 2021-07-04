@@ -1708,7 +1708,7 @@
           <FromVehicleLifeTime value="5.000000" />
           <LifeTimeAfterImpact value="5.000000" />
           <LifeTimeAfterExplosion value="25.000000" />
-          <ExplosionTime value="5.000000" />
+          <ExplosionTime value="1.000000" />
           <LaunchSpeed value="25.000000" />
           <SeparationTime value="0.000000" />
           <TimeToReachTarget value="2.000000" />
@@ -4875,8 +4875,8 @@
           <Group>GROUP_PISTOL</Group>
           <AmmoInfo ref="AMMO_PISTOL" />
           <AimingInfo ref="PISTOL_2H_BASE_STRAFE" />
-          <ClipSize value="12" />
-          <AccuracySpread value="1.500000" />
+          <ClipSize value="15" />
+          <AccuracySpread value="3.500000" />
           <AccurateModeAccuracyModifier value="0.500000" />
           <RunAndGunAccuracyModifier value="2.000000" />
           <RunAndGunAccuracyMinOverride value="-1.000000" />
@@ -4891,7 +4891,7 @@
           <MinHeadShotDistancePlayer value="5.000000" />
           <MaxHeadShotDistancePlayer value="40.000000" />
           <HeadShotDamageModifierPlayer value="20.000000" />
-          <Damage value="27.000000" />
+          <Damage value="30.000000" />
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />
           <DamageTimeInVehicleHeadShot value="0.000000" />
@@ -6078,9 +6078,9 @@
         <Item type="CWeaponInfo">
           <Name>WEAPON_SMG</Name>
           <Model>w_sb_smg</Model>
-          <Audio>AUDIO_ITEM_SMG</Audio>
+          <Audio>AUDIO_ITEM_GRENADELAUNCHER</Audio>
           <Slot>SLOT_SMG</Slot>
-          <DamageType>BULLET</DamageType>
+          <DamageType>ELECTRIC</DamageType>
           <Explosion>
             <Default>DONTCARE</Default>
             <HitCar>DONTCARE</HitCar>
@@ -6092,7 +6092,7 @@
           <FireType>INSTANT_HIT</FireType>
           <WheelSlot>WHEEL_SMG</WheelSlot>
           <Group>GROUP_SMG</Group>
-          <AmmoInfo ref="AMMO_SMG" />
+          <AmmoInfo ref="AMMO_STUNGUN" />
           <AimingInfo ref="RIFLE_LO_BASE_STRAFE" />
           <ClipSize value="30" />
           <AccuracySpread value="3.500000" />
@@ -6110,17 +6110,17 @@
           <MinHeadShotDistancePlayer value="5.000000" />
           <MaxHeadShotDistancePlayer value="40.000000" />
           <HeadShotDamageModifierPlayer value="18.000000" />
-          <Damage value="22.000000" />
+          <Damage value="00.000000" />
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />
           <DamageTimeInVehicleHeadShot value="0.000000" />
           <HitLimbsDamageModifier value="0.500000" />
           <NetworkHitLimbsDamageModifier value="0.800000" />
           <LightlyArmouredDamageModifier value="0.750000" />
-          <Force value="75.000000" />
-          <ForceHitPed value="100.000000" />
-          <ForceHitVehicle value="1100.000000" />
-          <ForceHitFlyingHeli value="750.000000" />
+          <Force value="000.000000" />
+          <ForceHitPed value="0000.000000" />
+          <ForceHitVehicle value="00.000000" />
+          <ForceHitFlyingHeli value="0.000000" />
           <OverrideForces>
             <Item>
               <BoneTag>BONETAG_HEAD</BoneTag>
@@ -6183,7 +6183,7 @@
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
-            <EffectGroup>WEAPON_EFFECT_GROUP_SMG</EffectGroup>
+            <EffectGroup>WEAPON_EFFECT_GROUP_STUNGUN</EffectGroup>
             <FlashFx>muz_smg</FlashFx>
             <FlashFxAlt>muz_alternate_star</FlashFxAlt>
             <FlashFxFP>muz_smg_fp</FlashFxFP>
@@ -8305,9 +8305,9 @@
         <Item type="CWeaponInfo">
           <Name>WEAPON_PUMPSHOTGUN</Name>
           <Model>w_sg_pumpshotgun</Model>
-          <Audio>AUDIO_ITEM_PUMPSHOTGUN</Audio>
+          <Audio>AUDIO_ITEM_GRENADELAUNCHER</Audio>
           <Slot>SLOT_PUMPSHOTGUN</Slot>
-          <DamageType>BULLET</DamageType>
+          <DamageType>ELECTRIC</DamageType>
           <Explosion>
             <Default>DONTCARE</Default>
             <HitCar>DONTCARE</HitCar>
@@ -8319,7 +8319,7 @@
           <FireType>INSTANT_HIT</FireType>
           <WheelSlot>WHEEL_SHOTGUN</WheelSlot>
           <Group>GROUP_SHOTGUN</Group>
-          <AmmoInfo ref="AMMO_SHOTGUN" />
+          <AmmoInfo ref="AMMO_STUNGUN" />
           <AimingInfo ref="RIFLE_LO_PUMP_STRAFE" />
           <ClipSize value="8" />
           <AccuracySpread value="2.500000" />
@@ -8337,17 +8337,17 @@
           <MinHeadShotDistancePlayer value="5.000000" />
           <MaxHeadShotDistancePlayer value="40.000000" />
           <HeadShotDamageModifierPlayer value="18.000000" />
-          <Damage value="29.000000" />
+          <Damage value="00.000000" />
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />
           <DamageTimeInVehicleHeadShot value="0.000000" />
           <HitLimbsDamageModifier value="1.000000" />
           <NetworkHitLimbsDamageModifier value="0.800000" />
           <LightlyArmouredDamageModifier value="0.750000" />
-          <Force value="14.000000" />
-          <ForceHitPed value="50.000000" />
-          <ForceHitVehicle value="350.000000" />
-          <ForceHitFlyingHeli value="120.000000" />
+          <Force value="000.000000" />
+          <ForceHitPed value="00000.000000" />
+          <ForceHitVehicle value="00000.000000" />
+          <ForceHitFlyingHeli value="000.000000" />
           <OverrideForces>
             <Item>
               <BoneTag>BONETAG_HEAD</BoneTag>
@@ -8397,7 +8397,7 @@
           <BulletBendingFarRadius value="0.000000" />
           <BulletBendingZoomedRadius value="0.375000" />
           <Fx>
-            <EffectGroup>WEAPON_EFFECT_GROUP_SHOTGUN</EffectGroup>
+            <EffectGroup>WEAPON_EFFECT_GROUP_STUNGUN</EffectGroup>
             <FlashFx>muz_shotgun</FlashFx>
             <FlashFxAlt />
             <MuzzleSmokeFx>muz_smoking_barrel_shotgun</MuzzleSmokeFx>
@@ -10411,7 +10411,7 @@
           <FireType>PROJECTILE</FireType>
           <WheelSlot>WHEEL_HEAVY</WheelSlot>
           <Group>GROUP_HEAVY</Group>
-          <AmmoInfo ref="AMMO_GRENADELAUNCHER" />
+          <AmmoInfo ref="AMMO_BZGAS" />
           <AimingInfo ref="GRENADELAUNCHER" />
           <ClipSize value="10" />
           <AccuracySpread value="1.000000" />
@@ -12699,7 +12699,7 @@
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />
           <DamageTimeInVehicleHeadShot value="0.000000" />
-          <HitLimbsDamageModifier value="0.500000" />
+          <HitLimbsDamageModifier value="0.100000" />
           <NetworkHitLimbsDamageModifier value="0.800000" />
           <LightlyArmouredDamageModifier value="0.750000" />
           <Force value="0.000000" />
@@ -12734,7 +12734,7 @@
           <BulletBendingFarRadius value="0.000000" />
           <BulletBendingZoomedRadius value="0.000000" />
           <Fx>
-            <EffectGroup>WEAPON_EFFECT_GROUP_GRENADE</EffectGroup>
+            <EffectGroup>WEAPON_GRENADELAUNCHER_SMOKE</EffectGroup>
             <FlashFx />
             <FlashFxAlt />
             <MuzzleSmokeFx />
